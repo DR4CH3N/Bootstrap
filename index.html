@@ -8,13 +8,38 @@
     <title>A-cademia - o seu jeito de viver uma vida saudável</title>
     <!-- booststrap -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 
     <!-- CSS proprio -->
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
+<body id="topo">
     <!-- HEADER BOOSTRAP -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+
+
+    <header class="container bg-light pt-3">
+      <div class="row">
+        <div class="col">
+          <p>Aberta todos os dias - 24h</p>
+        </div>
+        <div class="col text-end">
+          <p class="h4">
+            <a href="" class="text-success me-4"><i class="bi bi-whatsapp"></i></a>
+            <a href="" class="text-danger me-4" ><i class="bi bi-instagram"></i></a>
+            <a href="" class="text-primary me-4"><i class="bi bi-facebook"></i></a>
+            <a href="" class="text-info me-4"><i class="bi bi-linkedin"></i></a>
+          </p>
+        </div>
+      </div>
+    </header>
+
+
+
+
+  <!-- NAV BOOTSTRAP -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
+      <!-- menu vai ser sticky, vai ter sombra e vai ter a cor cinza claro -->
+
         <div class="container">
 
           <a class="navbar-brand" href="#topo"><img src="imgs/a-cademia-logo.png" alt="logo A-cademia" style="max-width:45%;"></a>
@@ -108,7 +133,7 @@
 
       <!-- CUSTOM CARDS -->
 
-      <div class="container px-4 py-5" id="custom-cards">
+      <div class="container px-4 py-5" id="modalidades">
         <h2 class="pb-2 border-bottom">O que você prefere?</h2>
     
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
@@ -162,7 +187,7 @@
 
       <!-- Formulario -->
 
-      <section class="container mt-5 pt-5">
+      <section class="container mt-5 pt-5" id="contato">
           <div class="row">
               <div class="col-10 offset-2">
                 <h2 class="pb-2 border-bottom">Entre em contato!</h2>
@@ -197,6 +222,79 @@
               </div>
           </div>
       </section>
+
+
+      <!-- FOOTER -->
+     
+      
+      <div class="container-fluid bg-light mt-5">
+        <!-- container q pega a tela inteira, tem a cor cinza e margin top 5 -->
+        <footer class="py-5"> 
+          <div class="row">
+
+           
+
+            <div class="col-8 offset-2 col-md-5 offset-md-1 mb-3">
+              <!-- 5 colunas, offset de 1 e margin botom de 3 -->
+              <h2>A-cademia</h2>
+              <p class="small">A melhor rede de academias do brasil.</p>
+
+              <p>Telefone: 11 2345-6789<br>
+              whatsapp: 11 2345-6789 <br>
+              endereço: Av. paulista, 500 <br>
+              São paulo - SP.
+              </p>
+            </div>
+
+
+            
+            <div class="col-4 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-4 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-4 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+           
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+      
+
 
 
     <!-- boostrap -->
