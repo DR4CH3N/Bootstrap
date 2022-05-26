@@ -52,3 +52,17 @@
     z-index: 1;
   }
   
+/* Reescrevendo a classe do bootstrap */
+
+.btn-primary {
+    background-color: purple;
+    border: 1px solid rgb(102, 02, 102);
+
+}
+.whatsapp {
+    color: white;
+    background-color: greenyellow;
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+
